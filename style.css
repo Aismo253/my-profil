@@ -1,0 +1,92 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container centré */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Cartes blanches */
+.card-white {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+h1,
+h2 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+/* Paragraphes */
+p {
+  margin: 5px 0;
+}
+
+/* Image de profil ronde */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+/* Boutons */
+a.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+a.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Liens */
+a:not(.btn) {
+  text-decoration: none;
+  color: #007bff;
+}
+a:not(.btn):hover {
+  color: #0056b3;
+}
+
+/* Liste de contact */
+.contact-list,
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.contact-list li,
+.list-inline > li {
+  margin: 8px 0;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+/* Icônes sociales */
+.social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+}
